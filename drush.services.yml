@@ -1,0 +1,19 @@
+services:
+  subprofile.generator:
+    class: 'Drupal\govcore\Generators\SubProfileGenerator'
+    arguments:
+      - '@extension.list.module'
+    tags:
+      - { name: drush.generator }
+
+  govcore.uninstaller:
+    class: 'Drupal\govcore\Commands\Uninstaller'
+    arguments:
+      - '@module_handler'
+      - '@theme_handler'
+      - '@extension.list.profile'
+      - '@file_system'
+      - '%app.root%'
+      - '%install_profile%'
+    tags:
+      - { name: drush.command }

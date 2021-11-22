@@ -1,0 +1,14 @@
+user.role.*.third_party.govcore:
+  type: mapping
+  label: 'GovCore settings'
+  mapping:
+    bundled:
+      type: boolean
+      label: 'Bundled with GovCore'
+
+govcore.versions:
+  type: sequence
+  label: 'GovCore component versions'
+  sequence:
+    type: string
+    label: 'Version'
