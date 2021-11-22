@@ -28,11 +28,7 @@ instructions.
 
 To install the most recent stable release of GovCore 9.0.x run this command:
 ```
-composer create-project govcore/govcore-project:^9.0.0 PROJECT_DIR_NAME --no-dev --no-interaction
+composer create-project govcore/govcore_project:^9.0.0 PROJECT_DIR_NAME --no-dev --no-interaction
 ```
 
-To install the dev version of GovCore 9.0.x run this command:
-```
-composer create-project govcore/govcore-project:9.0.x-dev PROJECT_DIR_NAME --stability dev --no-interaction
-```
 
