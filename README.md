@@ -3,6 +3,8 @@
 
 ## GovCore: The Drupal distribution for local government
 
+[![](govcore.jpg)](https://www.drupal.org/project/govcore)
+
 The powerful Drupal distribution for local government. Brought to you by [Clarity Partners](https://www.claritypartners.com/).
 
 GovCore is an enhanced Drupal distribution with a lot of necessities.
