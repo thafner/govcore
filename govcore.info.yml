@@ -2,11 +2,7 @@ name: GovCore
 core_version_requirement: '^8.8 || ^9'
 type: profile
 project: GovCore
-description: 'A fast and feature-rich Drupal distribution.'
-distribution:
-  name: GovCore
-  install:
-    theme: govtheme_claro
+description: 'The powerful Drupal distribution for local government.'
 install:
   - autosave_form
   - block_content
