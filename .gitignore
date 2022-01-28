@@ -1,3 +1,5 @@
 .DS_Store
 /.idea/php.xml
 /.idea/govcore.iml
+docroot/
+vendor/
