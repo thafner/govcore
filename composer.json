@@ -68,6 +68,12 @@
     "config": {
         "preferred-install": {
             "drupal/core": "dist"
+        },
+        "allow-plugins": {
+            "drupal/core-composer-scaffold": true,
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "oomphinc/composer-installers-extender": true
         }
     },
     "extra": {
@@ -127,8 +133,7 @@
         },
         "patches": {
             "drupal/core": {
-                "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                "[subprofile support] 1356276 - Allow to define a base/parent profile and load them in the correct order / 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2021-05-20/3143958-14-subprofile-support-9.2.x.patch"
+                "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch"
             }
         },
         "patches-ignore": {
