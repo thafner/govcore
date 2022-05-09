@@ -11,7 +11,6 @@ composer config minimum-stability dev
 composer config prefer-stable true
 composer config repositories.assets composer https://asset-packagist.org
 composer remove --no-update composer/installers
-composer require --no-update "ext-dom:*" "acquia/lightning:~5.1.0" cweagans/composer-patches
 composer update
 
 # Add the version number to the info file.

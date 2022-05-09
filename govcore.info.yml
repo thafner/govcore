@@ -41,27 +41,20 @@ install:
   - moderation_dashboard
   - moderation_sidebar
   - govcore_core
-  - govcore_api
-  - govcore_layout
   - govcore_media
-  - govcore_workflow
   - govcore_contact_form
   - govcore_page
-  - govcore_roles
-  - govcore_search
   - govcore_landing_page
   - govcore_media_audio
   - govcore_media_bulk_upload
   - govcore_media_document
   - govcore_media_image
-  - govcore_media_instagram
   - govcore_media_slideshow
-  - govcore_media_twitter
   - govcore_media_video
   - govcore_scheduler
   - govcore_banner_block
   - govcore_map_block
 themes:
-  - govtheme_claro
+  - govcore_theme
   - bartik
   - claro

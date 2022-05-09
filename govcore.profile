@@ -52,8 +52,8 @@ function govcore_grant_shortcut_access() {
 function govcore_set_default_theme() {
   Drupal::configFactory()
     ->getEditable('system.theme')
-    ->set('default', 'bartik')
-    ->set('admin', 'claro')
+    ->set('default', 'govcore_theme')
+    ->set('admin', 'govcore_theme')
     ->save(TRUE);
 
   // Use the admin theme for creating content.

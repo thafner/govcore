@@ -12,29 +12,13 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         },
-        "govcore_api": {
-            "type": "vcs",
-            "url": "https://github.com/govcore/govcore_api.git"
-        },
         "govcore_core": {
             "type": "vcs",
             "url": "https://github.com/govcore/govcore_core.git"
         },
-        "govcore_layout": {
-            "type": "vcs",
-            "url": "https://github.com/govcore/govcore_layout.git"
-        },
         "govcore_media": {
             "type": "vcs",
             "url": "https://github.com/govcore/govcore_media.git"
-        },
-        "govcore_workflow": {
-            "type": "vcs",
-            "url": "https://github.com/govcore/govcore_workflow.git"
-        },
-        "govcore_govtheme_claro": {
-            "type": "vcs",
-            "url": "https://github.com/govcore/govtheme_claro.git"
         }
     },
     "require": {
@@ -42,26 +26,23 @@
         "composer/composer": "^1.10.22 || ^2.0.13",
         "cweagans/composer-patches": "^1.7",
         "drupal/acquia_connector": "^1.24-rc3 || ^2.0-rc1 || ^3",
-        "drupal/core": "^9.2.6",
+        "drupal/core": "^9.2.18",
         "drupal/inline_entity_form": "^1.0-rc7",
         "drupal/page_manager": "^4.0-beta6",
         "drupal/panelizer": "^5.0-beta3",
         "drupal/pendo": "^1@alpha",
         "drupal/profile_switcher": "^1.0-alpha5",
         "drupal/search_api": "^1.17",
-        "govcore/govcore_api": "^1.0",
         "govcore/govcore_core": "^1.0",
-        "govcore/govcore_layout": "^1.0",
         "govcore/govcore_media": "^1.0",
-        "govcore/govcore_workflow": "^1.0",
-        "govcore/govtheme_claro": "^1.0"
+        "govcore/govcore_theme": "^1.0"
     },
     "require-dev": {
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-dev": "^9",
         "drupal/devel": "^4.1",
-        "drush/drush": ">=9.7",
+        "drush/drush": ">=11",
         "phpspec/prophecy-phpunit": "^2",
         "weitzman/drupal-test-traits": "dev-master"
     },

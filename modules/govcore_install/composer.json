@@ -1,6 +1,0 @@
-{
-    "name": "govcore/govcore_install",
-    "type": "drupal-module",
-    "description": "Provides helpful under-the-hood functionality used while installing Govcore.",
-    "license": "GPL-2.0-or-later"
-}
