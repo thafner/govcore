@@ -3,3 +3,5 @@
 /.idea/govcore.iml
 docroot/
 vendor/
+/.idea/.gitignore
+/.idea/workspace.xml
