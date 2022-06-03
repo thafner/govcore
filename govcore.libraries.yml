@@ -1,0 +1,91 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/elements.css: {}
+      css/base/typography.css: {}
+      css/base/print.css: {}
+    component:
+      css/classy/components/container-inline.css: {}
+      css/classy/components/exposed-filters.css: {}
+      css/classy/components/field.css: {}
+      css/classy/components/icons.css: {}
+      css/classy/components/inline-form.css: {}
+      css/classy/components/item-list.css: {}
+      css/classy/components/link.css: {}
+      css/classy/components/links.css: {}
+      css/classy/components/menu.css: {}
+      css/classy/components/more-link.css: {}
+      css/classy/components/tablesort.css: {}
+      css/classy/components/textarea.css: {}
+      css/classy/components/ui-dialog.css: {}
+      css/components/accordion.css: {}
+      css/components/action-link.css: {}
+      css/components/content-header.css: {}
+      css/components/container-inline.css: {}
+      css/components/container-inline.module.css: {}
+      css/components/breadcrumb.css: {}
+      css/components/button.css: {}
+      css/components/details.css: {}
+      css/components/divider.css: {}
+      css/components/messages.css: {}
+      css/components/entity-meta.css: {}
+      css/components/fieldset.css: {}
+      css/components/form.css: {}
+      css/components/form--checkbox-radio.css: {}
+      css/components/form--checkbox-radio--ie.css: {}
+      css/components/form--field-multiple.css: {}
+      css/components/form--managed-file.css: {}
+      css/components/form--text.css: {}
+      css/components/form--select.css: {}
+      css/components/help.css: {}
+      css/components/image-preview.css: {}
+      css/components/menus-and-lists.css: {}
+      css/components/modules-page.css: {}
+      css/components/node.css: {}
+      css/components/page-title.css: {}
+      css/components/pager.css: {}
+      css/components/skip-link.css: {}
+      css/components/tables.css: {}
+      css/components/table--file-multiple-widget.css: {}
+      css/components/search-admin-settings.css: {}
+      css/components/tablesort-indicator.css: {}
+      css/components/system-status-report-general-info.css: {}
+      css/components/system-status-report.css: {}
+      css/components/system-status-report-counters.css: {}
+      css/components/system-status-counter.css: {}
+      css/components/tableselect.css: {}
+      css/components/tabs.css: {}
+      css/components/views-ui.css: {}
+    theme:
+      css/theme/colors.css: {}
+      css/theme/rtl.css: {}
+      css/theme/overrides.css: {}
+    layout:
+      css/layout/breadcrumb.css: {}
+      css/layout/local-actions.css: {}
+      css/layout/layout.css: {}
+  dependencies:
+    - system/admin
+    - core/jquery
+    - core/drupal
+    - core/modernizr
+maintenance-page:
+  version: VERSION
+  js:
+    js/mobile.install.js: {}
+  css:
+    theme:
+      css/theme/maintenance-page.css: {}
+  dependencies:
+    - system/maintenance
+    - cookcounty/global-styling
+install-page:
+  version: VERSION
+  js:
+    js/mobile.install.js: {}
+  css:
+    theme:
+      css/theme/install-page.css: {}
+  dependencies:
+    - cookcounty/maintenance-page
