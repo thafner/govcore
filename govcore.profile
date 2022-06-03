@@ -74,13 +74,13 @@ function govcore_set_logo() {
   Drupal::configFactory()
     ->getEditable('system.theme.global')
     ->set('logo', [
-      'path' => $govcore_path . '/govcore.png',
+      'path' => $govcore_path . '/govcore-logo.png',
       'url' => '',
       'use_default' => FALSE,
     ])
     ->set('favicon', [
       'mimetype' => 'image/vnd.microsoft.icon',
-      'path' => $govcore_path . '/favicon.ico',
+      'path' => $govcore_path . '/govcore-icon.png',
       'url' => '',
       'use_default' => FALSE,
     ])
