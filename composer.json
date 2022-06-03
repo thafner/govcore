@@ -120,7 +120,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Acquia\\GovCore\\": "src"
+            "GovCore\\": "src"
         },
         "classmap": [
             "src/Composer/ConfigureLegacyProject.php"
@@ -143,9 +143,9 @@
             "find $PWD -name 'govcore.*' -depth 1 -exec ln -s -f {} $DIR ';'",
             "cp -f phpunit.xml ./docroot/core"
         ],
-        "configure-tarball": "Acquia\\GovCore\\Composer\\ConfigureLegacyProject::execute",
-        "enable-asset-packagist": "Acquia\\GovCore\\Composer\\AssetPackagist::execute",
-        "nuke": "rm -r -f docroot vendor",
-        "verify-patched-constraints": "Acquia\\GovCore\\Composer\\PatchedConstraint::execute"
+        "configure-tarball": "GovCore\\Composer\\ConfigureLegacyProject::execute",
+        "enable-asset-packagist": "GovCore\\Composer\\AssetPackagist::execute",
+        "nuke": "rm -r -f docroot/core docroot/modules/contrib docroot/profiles/contrib docroot/themes/contrib vendor",
+        "verify-patched-constraints": "GovCore\\Composer\\PatchedConstraint::execute"
     }
 }
