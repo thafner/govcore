@@ -27,7 +27,8 @@
         "drupal/search_api": "^1.17",
         "govcore/govcore_core": "^1.2",
         "govcore/govcore_media": "^1.2",
-        "govcore/govcore_theme": "^1.2"
+        "govcore/govcore_theme": "^1.2",
+        "govcore/govcore_workflow": "^1.2"
     },
     "require-dev": {
         "composer/installers": "^1.9",
@@ -129,7 +130,7 @@
     "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
-            "@putenv DIR=./docroot/profiles/govcore",
+            "@putenv DIR=./docroot/profiles/contrib/govcore",
             "mkdir -p $DIR",
             "ln -s -f $PWD/config $DIR",
             "ln -s -f $PWD/drush.services.yml $DIR",

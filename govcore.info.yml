@@ -5,55 +5,104 @@ project: GovCore
 description: 'The powerful Drupal distribution for local government.'
 install:
   - autosave_form
+  - address
+  - admin_toolbar
+  - auto_entitylabel
+  - better_exposed_filters
   - block_content
   - breakpoint
   - ckeditor
+  - ckeditor_iframe
+  - ckeditor_scayt
+  - conditional_fields
   - config
+  - config_filter
+  - config_ignore
+  - config_split
   - conflict
   - contextual
-  - menu_link_content
+  - crop
   - datetime
-  - quickedit
+  - dblog
+  - diff
   - editor
   - entity_block
-  - help
-  - history
-  - menu_ui
-  - node
-  - options
-  - path
-  - pathauto
-  - page_cache
-  - redirect
-  - taxonomy
-  - text
-  - dblog
-  - shortcut
-  - toolbar
+  - entity_embed
+  - entity_reference_revisions
+  - field_group
   - field_ui
   - file
-  - rdf
-  - views
-  - views_ui
-  - diff
-  - image_widget_crop
-  - metatag
-  - moderation_dashboard
-  - moderation_sidebar
+  - file_download_link
+  - geocoder
+  - geolocation
+  - govcore_banner_block
   - govcore_core
-  - govcore_media
-  - govcore_contact_form
-  - govcore_page
   - govcore_landing_page
+  - govcore_map_block
+  - govcore_media
   - govcore_media_audio
   - govcore_media_bulk_upload
   - govcore_media_document
   - govcore_media_image
-  - govcore_media_slideshow
+  - govcore_media_library
+  - govcore_media_portrait
+  - govcore_media_slider_image
   - govcore_media_video
+  - govcore_media_widescreen
+  - govcore_page
   - govcore_scheduler
-  - govcore_banner_block
-  - govcore_map_block
+  - govcore_site_settings
+  - govcore_social_sharing
+  - govcore_workflow
+  - help
+  - history
+  - image_effects
+  - image_widget_crop
+  - inline_entity_form
+  - jquery_ui
+  - jquery_ui_datepicker
+  - jquery_ui_draggable
+  - jquery_ui_droppable
+  - jquery_ui_slider
+  - jquery_ui_touch_punch
+  - linkit
+  - linkit_media_library
+  - masquerade
+  - maxlength
+  - media_entity_browser
+  - menu_link_attributes
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - moderation_dashboard
+  - moderation_sidebar
+  - module_filter
+  - node
+  - office_hours
+  - options
+  - page_cache
+  - paragraphs
+  - path
+  - pathauto
+  - quickedit
+  - rabbit_hole
+  - rdf
+  - redirect
+  - robotstxt
+  - shortcut
+  - simple_gmap
+  - simple_sitemap
+  - stage_file_proxy
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - toolbar_menu
+  - viewfield
+  - views
+  - views_ui
+  - workbench
+  - workbench_access
 themes:
   - govcore_theme
   - bartik
