@@ -25,9 +25,9 @@
         "drupal/pendo": "^1@alpha",
         "drupal/profile_switcher": "^1.0-alpha5",
         "drupal/search_api": "^1.17",
-        "govcore/govcore_core": "^1.1",
-        "govcore/govcore_media": "^1.1",
-        "govcore/govcore_theme": "^1.1"
+        "govcore/govcore_core": "^1.2",
+        "govcore/govcore_media": "^1.2",
+        "govcore/govcore_theme": "^1.2"
     },
     "require-dev": {
         "composer/installers": "^1.9",
