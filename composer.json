@@ -25,7 +25,7 @@
         "drupal/pendo": "^1@alpha",
         "drupal/profile_switcher": "^1.0-alpha5",
         "drupal/search_api": "^1.17",
-        "govcore/govcore_core": "^1.2",
+        "govcore/govcore_core": "^1.2.8",
         "govcore/govcore_media": "^1.2",
         "govcore/govcore_theme": "^1.2",
         "govcore/govcore_workflow": "^1.2"
