@@ -25,10 +25,10 @@
         "drupal/pendo": "^1@alpha",
         "drupal/profile_switcher": "^1.0-alpha5",
         "drupal/search_api": "^1.17",
-        "govcore/govcore_core": "^1.2.8",
-        "govcore/govcore_media": "^1.2",
+        "govcore/govcore_core": "^5.13",
+        "govcore/govcore_media": "^4.6",
         "govcore/govcore_theme": "^1.2",
-        "govcore/govcore_workflow": "^1.2"
+        "govcore/govcore_workflow": "^3.18"
     },
     "require-dev": {
         "composer/installers": "^1.9",
