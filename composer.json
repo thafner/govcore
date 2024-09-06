@@ -18,7 +18,7 @@
         "composer/composer": "^1.10.22 || ^2.0.13",
         "cweagans/composer-patches": "^1.7",
         "drupal/acquia_connector": "^1.24-rc3 || ^2.0-rc1 || ^3 || ^4",
-        "drupal/core": "^10.0",
+        "drupal/core": "^9.5 || ^10.0",
         "drupal/inline_entity_form": "^2",
         "drupal/page_manager": "^4.0-rc2",
         "drupal/panelizer": "^5",
@@ -108,13 +108,13 @@
         },
         "patches": {
             "drupal/core": {
-                "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch"
+                "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2024-06-14/2869592-disabled-update-module-63.patch"
             }
         },
         "patches-ignore": {
             "govcore/govcore_core": {
                 "drupal/core": {
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch"
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2024-06-14/2869592-disabled-update-module-63.patch"
                 }
             }
         }
